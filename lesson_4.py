@@ -15,7 +15,7 @@ if height>=1.2:
         total_price = 7
     q_photo=input('Do you want to take a photo?')
     if q_photo == 'y' or q_photo == 'Y' or q_photo == 'yes' or q_photo == 'Yes':
-       total_price = total_price + 3
+       total_price += 3
        print(f'The price to be paid is ${total_price} .')
 
 else:
